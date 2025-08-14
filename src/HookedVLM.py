@@ -51,6 +51,7 @@ class HookedLVLM:
     """
     def __init__(self, 
                  model_id: str = "llava-hf/llava-1.5-7b-hf",
+                 #model_id: str = "llava-hf/llava-onevision-qwen2-7b-ov-hf",
                  hook_loc: str = "text_model_in",
                  device: str = "cuda:0",
                  quantize: bool = False,
